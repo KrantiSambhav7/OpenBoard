@@ -10,7 +10,7 @@ html,body{
 .options-ctn{
     height: 3rem;
     width: 3rem;
-    background-color: white;
+    background-color: grey;
     position: absolute;
     top: 1.5rem;
     left: 2rem;
@@ -33,6 +33,7 @@ html,body{
     font-size: 1.5rem;
     background-color: grey;
     border: 1px solid black;
+    border-radius: 0.5rem;
 }
 .pencil-tool{
     height: 2rem;
@@ -40,7 +41,7 @@ html,body{
     position: absolute;
     top: 5rem;
     left: 25rem;
-    background-color: azure;
+    background-color: grey;
     display: none;
 }
 .pencil-width-ctn{
@@ -58,7 +59,7 @@ html,body{
     gap: 1rem;
     justify-content: center;
     height: calc(100% - 0.1rem);
-    background-color: azure;
+    background-color: grey;
 }
 .pencil-color{
     width: 1.5rem;
@@ -81,7 +82,7 @@ html,body{
     position: absolute;
     top: 5rem;
     left: 31.5rem;
-    background-color: azure;
+    background-color: grey;
     display: none;
 }
 .eraser-width-ctn input{
